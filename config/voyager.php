@@ -239,7 +239,7 @@ return [
         ],
         */
        //Path for media-manager. Relative to the filesystem.
-       'path'                => '/',
+       'path'                => '/img/',
        'show_folders'        => true,
        'allow_upload'        => true,
        'allow_move'          => true,
