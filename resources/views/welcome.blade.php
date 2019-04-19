@@ -109,11 +109,11 @@ footer .aviso p {
                     <div class="col-md-12">
                         <span class="title"><img src="img/minhacarteira2.png" alt=""><b> Minha</b> Carteira</span>
                         <div class="box-tools pull-right">
-                            <a href="/admin" class="btn btn-success"> <i
+                            <a href="{{ route('login') }}" class="btn btn-success"> <i
                                     class="fa fa-lock"></i>&nbsp;&nbsp;&nbsp;Entrar </a>&nbsp;&nbsp;&nbsp;
                         </div>
                         <div class="box-tools pull-right">
-                            <a href="" class="btn btn-danger"> <i
+                            <a href="{{ route('register') }}" class="btn btn-danger"> <i
                                     class="fa fa-user-plus"></i>&nbsp;&nbsp;&nbsp;Cadastre-se </a>
                         </div>
                     </div>
